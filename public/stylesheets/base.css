@@ -1,0 +1,23 @@
+body                                { color: #939598; font: 16px/1.0em "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, Times, serif; }
+
+h1, h2, h3, h4, h5, h6              { font-family: "pill-gothic-600mg-1", "pill-gothic-600mg-2", sans-serif; text-transform: uppercase; line-height: 1.0em; margin-bottom: 0.55em; letter-spacing: -1px; color: #58595B; }
+h1                                  { font-size: 36px; }
+h2                                  { font-size: 30px; }
+h3                                  { font-size: 25px; }
+h4                                  { font-size: 22px; }
+h5                                  { font-size: 18px; }
+h6                                  { font-size: 16px; }
+
+p, ul, ol                           { line-height: 1.4em; margin-bottom: 20px }
+ul                                  { margin-left: 24px; }
+
+a                                   { color: #ff8322; text-decoration: none; }
+a:hover, a:focus                    { color: #babaae; }
+a, a:hover, a:active, a:focus       { outline: none; *border: none; }
+:-moz-any-link:focus                { outline: none; }
+
+section, article                    { margin-bottom: 30px; }
+footer                              { min-height: 100px; clear: both;}
+
+#wrapper                            { width: 960px; margin: 0 auto; }
+#container                          { -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 15px rgba(0,0,0,0.1); box-shadow: 0 0 15px rgba(0,0,0,0.1); padding:40px; float: left; }

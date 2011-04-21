@@ -1,0 +1,7 @@
+nav                                               { float: right; margin-right: 10px; margin-top: 3px; }
+
+nav ul                                            { margin-top: 15px; }
+nav ul li                                         { float: left; margin-left: 5px; }
+nav ul li a                                       { float: left; padding: 12px 14px 14px; color: #444; font: 17px "museo-sans-1", "museo-sans-2", sans-serif; }
+
+nav ul li.current a, nav ul li a:hover            { background: #eeeeee; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; color: #58595B; }
