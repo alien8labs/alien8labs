@@ -1,0 +1,13 @@
+#content.with-sidebar, .secondary-content         { display: block; float: left; vertical-align: top; }
+#content.with-sidebar                             { margin-right: 10px; width: 635px; }
+.secondary-content                                { color: #abab9d; font-size: 14px; width: 230px; }
+
+.side-block                                       { margin-bottom: 26px; }
+.side-block h5                                    { margin-bottom: 10px; }
+
+.link-list                                        { margin-bottom: 55px; list-style: none !important; margin-left: 0 !important; border-bottom: 1px solid #f3f3f1; }
+.link-list li                                     { border-top: 1px solid #f3f3f1; font-style: italic; padding: 12px 0; }
+.link-list li a                                   { display: block; font-style: normal; line-height: 1.2em; }
+
+.link-list.alt                                    { border-bottom: none; }
+.link-list.alt li                                 { padding: 8px 0; }

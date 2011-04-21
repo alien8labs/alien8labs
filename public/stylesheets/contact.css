@@ -1,0 +1,3 @@
+#prefer-email, #prefer-phone       { padding-left: 55px; padding-top: 15px; height: 35px;}
+#prefer-email                      { background: url('/images/icons/email_grey_48.png') no-repeat left center; }
+#prefer-phone                      { background: url('/images/icons/phone_grey_48.png') no-repeat left center; display: block; }
