@@ -15,7 +15,7 @@ set :user,         'deploy'
 set :admin_runner, 'deploy'
  
 
-server "69.164.192.153", :web, :app
+server "69.164.192.153", :web, :app, :db, :primary => true
  
 
 namespace :deploy do
@@ -38,7 +38,7 @@ namespace :deploy do
 end
 
 
-after "deploy", "deploy:shared", "deploy:cleanup"
+after "deploy", "deploy:shared", "deploy:migrate", "deploy:cleanup"
 
 
 require 'capistrano/ext/multistage'
