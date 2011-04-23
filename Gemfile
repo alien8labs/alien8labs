@@ -11,6 +11,7 @@ gem 'simple_form'
 group :test do
   gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'autotest'
+  gem 'launchy'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
   gem 'metrical'

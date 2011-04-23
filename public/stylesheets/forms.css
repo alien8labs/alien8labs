@@ -21,4 +21,4 @@ form input[type="submit"]                       { background-color: #65AF45; bor
 form input[type="submit"]:hover, 
 form input[type="submit"]:focus                 { background-color: #58595B; color: #eee; }
 
-
+form span.error                                 { -moz-border-radius-bottomleft: 3px; -moz-border-radius-bottomright: 3px; background: #fff; border-left: 10px solid #e64e56; border-bottom: 2px solid #eee; border-right: 2px solid #eee; color: #333333; display: inline-block; font-size: 11px; font-weight: bold; padding: 5px 10px; }

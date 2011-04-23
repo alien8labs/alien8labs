@@ -4,7 +4,7 @@ header img#logo                   { float: left; margin: 10px 0 28px 10px; }
 
 #social_header                    { float: right; background: #62ae45; height: 26px; padding: 3px 4px 2px 6px;
                                       background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0.31, #62ae45), color-stop(0.56, #64af46), color-stop(0.98, #a2c939));
-                                      background-image: -moz-linear-gradient(center bottom, #2A668E 31%, #3879A4 56%, #4387B4 98%);
+                                      background-image: -moz-linear-gradient(center bottom, #62ae45 31%, #64af46 56%, #a2c939 98%);
                                       -moz-border-radius-bottomleft: 5px;
                                       -moz-border-radius-bottomright: 5px;
                                       -webkit-border-bottom-right-radius: 5px;
