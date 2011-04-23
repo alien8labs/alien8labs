@@ -6,6 +6,9 @@ gem 'pg'
 gem 'silent-postgres'
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'resque'
+gem 'resque_mailer'
+gem 'SystemTimer'
 
 
 group :test do

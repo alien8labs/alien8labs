@@ -1,4 +1,6 @@
 class Mailer < ActionMailer::Base
+  include Resque::Mailer
+
   default :from => "mothership@alien8labs.com"
 
 
