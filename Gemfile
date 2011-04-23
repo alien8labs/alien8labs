@@ -5,10 +5,11 @@ gem 'rails', '3.0.7'
 gem 'pg'
 gem 'silent-postgres'
 gem 'jquery-rails'
+gem 'simple_form'
 
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'autotest'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
