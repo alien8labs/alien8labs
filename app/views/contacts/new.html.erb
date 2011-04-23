@@ -1,0 +1,32 @@
+<section id="content" class="with-sidebar"> 
+  <h2>Work With Us</h2> 
+  <p>We are currently accepting additional awesome clients.</p> 
+
+  <%= simple_form_for @contact do |f| %>
+    <%= f.input :name %>
+    <%= f.input :email %>
+    <%= f.input :company %>
+    <%= f.input :phone_number,       :label => 'Phone Number' %>
+    <%= f.input :want_to_accomplish, :label => 'What would you like to accomplish?' %>
+    <%= f.input :help_you_succeed,   :label => 'How can we help you succeed?' %>
+    <%= f.submit 'Submit Request' %>
+  <% end %>
+</section> 
+
+<section class="secondary-content"> 
+  <div class="side-block"> 
+    <h5>We're Hiring!</h5> 
+    <p>Alien-8 Labs is currently seeking awesome designers to join our team for upcoming projects.</p> 
+  </div> 
+</section> 
+
+<section class="secondary-content"> 
+  <div class="side-block"> 
+    <h5>Prefer Phone or Email?</h5> 
+    <ul class="link-list"> 
+      <li><a href="mailto:" id="prefer-email">hello@alien8labs.com</a></li> 
+      <li><span id="prefer-phone">800-422-9433</span></li> 
+    </ul> 
+  </div> 
+</section> 
+
