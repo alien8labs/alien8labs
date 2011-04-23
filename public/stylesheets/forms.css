@@ -6,11 +6,19 @@ form p.hidden                                   { margin: 0; }
 form label                                      { display: block; font-size: 16px; margin-bottom: 5px; color: #313131; -webkit-font-smoothing: antialiased; }
 form label span                                 { color: #ACAC9E; font-weight: normal; }
 
-form input, form textarea, form select          { border: 2px solid #e5e5e5; font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, Times, serif; font-size: 16px; padding: 3px; width: 96%; }
+
+/*
+ * FIXME: Is there a better way to exlude the button input type? */
+form input[type="text"],  form input[type="tel"], 
+form input[type="email"], form textarea, 
+form select                                     { border: 2px solid #e5e5e5; font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, Times, serif; font-size: 16px; padding: 3px; width: 96%; }
+
 form textarea                                   { height: 10em; }
 form select                                     { font-size: 14px; padding: 0; width: 100%; }
 
-form button                                     { background-color: #65AF45; border: none; color: #fff; cursor: pointer; font-family: "Impact", sans-serif; font-size: 20px; line-height: 1.0em; padding: 8px 10px; text-transform: uppercase; letter-spacing: 1px; -webkit-font-smoothing: antialiased; }
-form button:hover, form button:focus            { background-color: #58595B; color: #eee; }
+form input[type="submit"]                       { background-color: #65AF45; border: none; color: #fff; cursor: pointer; font-family: "Impact", sans-serif; font-size: 20px; line-height: 1.0em; padding: 8px 10px; text-transform: uppercase; letter-spacing: 1px; -webkit-font-smoothing: antialiased; }
+
+form input[type="submit"]:hover, 
+form input[type="submit"]:focus                 { background-color: #58595B; color: #eee; }
 
 

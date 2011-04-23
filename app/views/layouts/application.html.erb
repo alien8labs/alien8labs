@@ -7,8 +7,32 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div id="wrapper"> 
+    <header> 
+      <a href="/"><img alt="Logo" id="logo" src="/images/logo.png?1303248632" /></a> 
+      <div id="social_header"> 
+        <a href="http://twitter.com/alien8labs"><img alt="Twitter" src="/images/icons/twitter.png?1303237963" /></a> 
+        <a href="https://www.facebook.com/pages/Alien-8-Labs/123802014324969"><img alt="Facebook" src="/images/icons/facebook.png?1303237963" /></a> 
+        <a href="mailto:hello@alien8labs.com"><img alt="Email" src="/images/icons/email.png?1303237963" /></a> 
+        <a href="http://feeds.feedburner.com/alien8labs"><img alt="rss" src="/images/icons/rss.png?1303237963" /></a> 
+      </div> 
+ 
+      <nav> 
+        <ul> 
+          <%= navigation_link('Home', 'home', root_path) %>
+          <%= navigation_link('Our Team', 'about', '#') %>
+          <%= navigation_link('Articles', 'articles', '#') %>
+          <%= navigation_link('Services', 'static', '#') %>
+          <%= navigation_link('Careers', 'static', '#') %>
+          <%= navigation_link('Hire Us', 'contacts', new_contact_path) %>
+        </ul> 
+      </nav> 
+    </header> 
+ 
+    <div id="container">
+      <%= render 'shared/flashes' %>
+      <%= yield %>
+    </div>
+  </div>
 </body>
 </html>
