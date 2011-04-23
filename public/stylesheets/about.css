@@ -1,0 +1,17 @@
+section.team_member                                   { border: 1px solid #ccc; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; padding: 30px 260px 10px; position: relative; }
+
+section.team_member p.position                        { color: #5B2D6E; margin: -14px 0 20px; }
+
+section.team_member .photo img                        { position: absolute; left: 12px; bottom: 0; z-index: -1; }
+
+section.team_member .on_the_web                       { position: absolute; right: 20px; top: 30px; width: 200px; font-size: 13px; }
+section.team_member .on_the_web li                    { margin: 0 0 15px; list-style: none; }
+section.team_member .on_the_web li a                  { padding: 0 0 0 22px; display: block; }
+
+
+li.email    a                                         { background: url(/images/icons/email_16.png)    no-repeat 0 0; }
+li.twitter  a                                         { background: url(/images/icons/twitter_16.png)  no-repeat 0 0; }
+li.flickr   a                                         { background: url(/images/icons/flickr_16.png)   no-repeat 0 0; }
+li.github   a                                         { background: url(/images/icons/github_16.png)   no-repeat 0 0; }
+li.dribbble a                                         { background: url(/images/icons/dribbble_16.png) no-repeat 0 0; }
+
