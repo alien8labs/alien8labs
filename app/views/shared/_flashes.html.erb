@@ -1,0 +1,4 @@
+<% flash.keys.select{|k| [:notice, :warning, :alert].include?(k) }.each do |type| %>
+  <div id="flash_<%= type %>"><%= flash[type] %></div>
+<% end %>
+<% flash.discard %>
