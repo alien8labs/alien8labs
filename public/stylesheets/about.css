@@ -1,17 +1,16 @@
-section.team_member                                   { border: 1px solid #ccc; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; padding: 30px 260px 10px; position: relative; }
+.team-member                                      { float: left; clear: both; margin-bottom: 60px; }
 
-section.team_member p.position                        { color: #5B2D6E; margin: -14px 0 20px; }
+.team-member h2                                   { margin-bottom: 0px; padding-bottom: 0px; }
+.team-member .description                         { padding-right: 35px; float: left; width: 400px; }
 
-section.team_member .photo img                        { position: absolute; left: 12px; bottom: 0; z-index: -1; }
+.team-member aside                                { float: left; }
 
-section.team_member .on_the_web                       { position: absolute; right: 20px; top: 30px; width: 200px; font-size: 13px; }
-section.team_member .on_the_web li                    { margin: 0 0 15px; list-style: none; }
-section.team_member .on_the_web li a                  { padding: 0 0 0 22px; display: block; }
+.team-member aside .extras                        { width: 208px; float: left; }  
+.team-member aside .extras ul                     { list-style: none; margin-left: 0; clear: both; margin-left: 15px;}
+.team-member aside .extras ul li                  { border-top: 1px solid #e6e6e6; padding: 15px 10px 0; margin: 0 0 15px; font-size: 14px;  line-height: 1.2em; }
 
+.team-member aside .extras ul.social-icons        { float: right; }
+.team-member aside .extras ul.social-icons li     { border-top: none; display: inline; padding: 0 2px; }
 
-li.email    a                                         { background: url(/images/icons/email_16.png)    no-repeat 0 0; }
-li.twitter  a                                         { background: url(/images/icons/twitter_16.png)  no-repeat 0 0; }
-li.flickr   a                                         { background: url(/images/icons/flickr_16.png)   no-repeat 0 0; }
-li.github   a                                         { background: url(/images/icons/github_16.png)   no-repeat 0 0; }
-li.dribbble a                                         { background: url(/images/icons/dribbble_16.png) no-repeat 0 0; }
-
+.team-member aside .image                         { padding-right: 35px; float: left; position: relative; }
+.team-member aside .image span                    { right: 13px; top: -4px; position: absolute; width: 50px; height: 57px; background: transparent url(/images/a8-corner.png) no-repeat left top; z-index: 999; }
