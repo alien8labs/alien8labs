@@ -20,4 +20,4 @@ section, article                    { margin-bottom: 30px; }
 footer                              { min-height: 100px; clear: both;}
 
 #wrapper                            { width: 960px; margin: 0 auto; }
-#container                          { -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 15px rgba(0,0,0,0.1); box-shadow: 0 0 15px rgba(0,0,0,0.1); padding:40px; float: left; }
+#container                          { width: 880px; -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 15px rgba(0,0,0,0.1); box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 40px; float: left; }

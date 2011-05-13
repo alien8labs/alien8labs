@@ -1,0 +1,16 @@
+.team-member                                      { float: left; clear: both; margin-bottom: 60px; }
+
+.team-member h2                                   { margin-bottom: 0px; padding-bottom: 0px; }
+.team-member .description                         { padding-right: 35px; float: left; width: 400px; }
+
+.team-member aside                                { float: left; }
+
+.team-member aside .extras                        { width: 208px; float: left; }  
+.team-member aside .extras ul                     { list-style: none; margin-left: 0; clear: both; margin-left: 15px;}
+.team-member aside .extras ul li                  { border-top: 1px solid #e6e6e6; padding: 15px 10px 0; margin: 0 0 15px; font-size: 14px;  line-height: 1.2em; }
+
+.team-member aside .extras ul.social-icons        { float: right; }
+.team-member aside .extras ul.social-icons li     { border-top: none; display: inline; padding: 0 2px; }
+
+.team-member aside .image                         { padding-right: 35px; float: left; position: relative; }
+.team-member aside .image span                    { right: 13px; top: -4px; position: absolute; width: 50px; height: 57px; background: transparent url(/images/a8-corner.png) no-repeat left top; z-index: 999; }
